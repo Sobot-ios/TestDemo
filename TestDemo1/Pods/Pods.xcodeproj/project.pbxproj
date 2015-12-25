@@ -7,63 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02AAD72D8B34003CD54DFA89BFB1308A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B047FC4CC96EA7BD6052B6FB1033C457 /* Foundation.framework */; };
-		05F70CE04EC7C90CB9517E81F375CBE7 /* ZCKitInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 21FCDE788A0615DF42A37EC6489BBC45 /* ZCKitInfo.h */; };
-		068595C208F62D3C91DB34367A6C71D9 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = EA066AFE1BB1C2048BD8B56227AB9C9D /* Info.plist */; };
-		073E6DA2BF24B72B2F63ECBF903AFA32 /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = D3AB39A53DCF6C9592BBFDBC896EEBAB /* CodeRequirements */; };
-		0A5D824470CAF0CFCD4EF3ED7EAD8CC3 /* ZCUIChatController.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0634F6AC8434547A82DCCFC225F801 /* ZCUIChatController.h */; };
-		115E326D06D825EB631B2CAB3B357A52 /* ZCLibInitInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF73EC39B29AB6820206632742A0F4E /* ZCLibInitInfo.h */; };
-		184DEF9DF616365301DEAEE00D28CF54 /* SobotKit in Sources */ = {isa = PBXBuildFile; fileRef = F15A94DDA1B08F01C5EF2D10A83ED7BD /* SobotKit */; };
-		44CDAD0E6EFA0AD5A6E7D5B0B0297BBF /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = 2B903EE1559C5D202DB03871B22A6986 /* CodeDirectory */; };
-		47DC9291158AF6B3941C55D6FD28C6D1 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 44DAD29664858F1A7B7F5D6DC74C6BDC /* CodeResources */; };
-		5A08829A1F59AB64C92046E58CA77CBF /* ZCUIBaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20AA83521C4A67A6722EB8076519E0A1 /* ZCUIBaseController.h */; };
-		63B5179987D948E64B885FE2C1475184 /* ZCSobot.h in Headers */ = {isa = PBXBuildFile; fileRef = B7648CDA091763719E61B635C2193638 /* ZCSobot.h */; };
-		7F98BDD5A9FFF8ED3E985EF0F92F27C9 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 6ABBB2AC3321804EAF580D73289D7740 /* CodeSignature */; };
-		93C90DB3E3D1359F77D4A4981D289B7C /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = B1556C8C153D10AE1386145BD9BD419E /* module.modulemap */; };
-		9591198E717515AD51C6E13B91C866F8 /* SobotKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF39633CE4F0B3B56FEFEE613D544BB /* SobotKit.h */; };
-		BC6C522303AB98754C638D11DA7F3874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B047FC4CC96EA7BD6052B6FB1033C457 /* Foundation.framework */; };
+		0975E6BC3AC04DF1C53F0B7DB371B0EE /* ZCPop_voice_receive_anime_1@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4830EEF5B9C79D11B34E0602B4F5BF45 /* ZCPop_voice_receive_anime_1@2x.png */; };
+		0C7CD8554C3E2761707E11B2EC909006 /* ZCPop_voice_send_anime_3@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0970A3EC6A2C1F7005B749AE4137790B /* ZCPop_voice_send_anime_3@2x.png */; };
+		0D89AB561A89FA2EEC00A5AEAA79875A /* ZCWebBack@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2A3885E8C099B9227B9DB579A1C441A2 /* ZCWebBack@2x.png */; };
+		10EEDB01F86AFCE25B20F6BCA098100F /* ZCIcon_manualwork_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 6D44590B2CD4A4EAE9EEAF1377607AFA /* ZCIcon_manualwork_normal@2x.png */; };
+		191C89497238667A948F196FAB42A914 /* ZCLibInitInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8786103DC2CCF85327AEEBB7D835358F /* ZCLibInitInfo.h */; };
+		279C281FFBCC376E6E231F8FB2690429 /* ZCIcon_send_fail@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 25F24C47773B21591B8DCBDBA3637CB7 /* ZCIcon_send_fail@2x.png */; };
+		280BB1F8D9CD207F6E904604130EFBA3 /* ZCIcon_keyboard_pressed@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 651FAF4E3150628AC0A5AE7A79FD20B3 /* ZCIcon_keyboard_pressed@2x.png */; };
+		372F9D16612E40A7CA05854ACE7B77CA /* ZCWebBack.png in Sources */ = {isa = PBXBuildFile; fileRef = FE10DF2E2ADD9084FB860B2179FAE135 /* ZCWebBack.png */; };
+		3A340CCE961F0C1DC8F754626F9CEDDE /* TestDemoTo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE060487989A8DCE6A60E38E72A7F656 /* TestDemoTo-dummy.m */; };
+		3C2F0CC40E04506BF59DB1640EF6A161 /* ZCPop_voice_send_anime_4@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 994EA2E15750DB11010F64BEA4ECF7F5 /* ZCPop_voice_send_anime_4@2x.png */; };
+		4062CD94C1A9F4AA22FB14512EF08720 /* SobotKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B4D3F8B948731B747CB98A3B948E38 /* SobotKit.h */; };
+		419746E334ED8DC65D51F81F4E827445 /* ZCUIChatController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDD47A6D418E6A81E34E534EEC00DDA /* ZCUIChatController.h */; };
+		452C76FF5E1E6BB2091CEC1E2661AAC1 /* ZCIcon_keyboard_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D712E19BC3F7D2ADCD9C3BC30F8C5AC6 /* ZCIcon_keyboard_normal@2x.png */; };
+		45F7F30F118873033C2F0DCFB2832A6D /* ZCIcon_nonet@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 76937B769B4E70BCCD776C808E48FD9A /* ZCIcon_nonet@2x.png */; };
+		4828A1AE754F58815526A458A768C8CB /* ZCStar_satisfied@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5FB224E6CA0F5B2BC51D881DF8A3EB7E /* ZCStar_satisfied@2x.png */; };
+		4B48C6E492F74944C9C50B502F78D647 /* ZCPop_voice_send_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9A318F28F456F682AD308130A0BAC42C /* ZCPop_voice_send_normal@2x.png */; };
+		5A5B72A0FE89FC8E8B902243817ADD7F /* ZCRecording_mike@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3DEEE941B232E8717C2F377D97F880B0 /* ZCRecording_mike@2x.png */; };
+		5D3AB5984517B8102A1E2C8755AFE8A7 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B25B82B075C48C98A8D9E89F4DD1E /* CodeSignature */; };
+		5F063E8BB27D9360A750932F296C9B0F /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = C8561FD65B4459AECCF266991F6D139F /* Info.plist */; };
+		66B8598E9F6B24B2C528E2361D792B45 /* ZCIcon_manualwork_pressed@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 54D57582EEB1F4C53D705AEEB59E1B86 /* ZCIcon_manualwork_pressed@2x.png */; };
+		672BDD82810C26E6BBF7C036EFE2A665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115238DB298904FCADF1E56DDFAF963C /* Foundation.framework */; };
+		691864F999AA4ACE03608E8355741C34 /* ZCIcon_tag_nonet@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8D05533AEAB717BC5ADCA8FCE60436BC /* ZCIcon_tag_nonet@2x.png */; };
+		6A04FB5B17809ABCE6DD250BB5549CA5 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = B3D4B87510648B27E31F2F510B56227F /* CodeDirectory */; };
+		6B10F7CE15B60ED4F086F634FB0BC5C6 /* pop_green_left_pressed@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 47BC442F4857ABFC637D1C55905C2767 /* pop_green_left_pressed@2x.png */; };
+		6E969AEB00CA2E2E6F0F40A0C1B01E4F /* SobotKit in Sources */ = {isa = PBXBuildFile; fileRef = FC281A6EE473F28B274E11419102502E /* SobotKit */; };
+		772D3A5997DC8B93C4B71F3A8071F730 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 28B3C8E641E1E3EE6235C593A7FA5E26 /* module.modulemap */; };
+		78C062B7CD36A766997977FCEFB61FA3 /* ZCPop_voice_receive_anime_2@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D68B3CEAF1521CCDAC881A02C0DE7327 /* ZCPop_voice_receive_anime_2@2x.png */; };
+		7BD2BA67D350322D80CEE899046BFC1B /* ZCPop_voice_send_anime_2@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 41AE724832427947F1D363D5293351B4 /* ZCPop_voice_send_anime_2@2x.png */; };
+		7C4447C9ACAF7C86AEB9639CCD0CF069 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 49BA53FECFD4653C4A4FC5244D816DAA /* CodeResources */; };
+		8004F56F575FE66AB992F2E81C241489 /* ZCRecording_volum4@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9DB4CF1577A415AF970BB91BFDA37BAB /* ZCRecording_volum4@2x.png */; };
+		82075FAD6ACBD926AF18A054F8DD3CF6 /* pop_green_pressed@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8EED59E6565E68E450B84F2C91A13EA5 /* pop_green_pressed@2x.png */; };
+		8242C67B5BDD97BCC05E75B6FCEF1A58 /* ZCKitInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CB761EA4CFA63D013B4C051D71B9E5 /* ZCKitInfo.h */; };
+		82B7A2CD0D93F430E2C8FD6756ED5881 /* ZCIcon_picture_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 649E31C83946C44A37359CB9674CBB36 /* ZCIcon_picture_normal@2x.png */; };
+		88AC97F6A6C55E4BE92865E4AFFFE2FC /* ZCPop_voice_receive_anime_4@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BE82F1B425B370921235708851F6 /* ZCPop_voice_receive_anime_4@2x.png */; };
+		8990B202F235650478A6E659BB92122F /* ZCSobot.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B66D1222C66C19AE94874A11BBB9A6B /* ZCSobot.h */; };
+		8CD16E30E280649B0C4FF3A690C11951 /* avatar_robot@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B74CD9F9C34BDE0939B5164C6B8F1 /* avatar_robot@2x.png */; };
+		9481B1EFCB94D37DB03708A28AF4720B /* avatar_customerservice@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = E4E973184BB28B049AE89A98DE7DE47E /* avatar_customerservice@2x.png */; };
+		98967B3003CFE91916EA1C7A6D448E06 /* ZCUIBaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A840FE0E8902F21E5FC9EBD1BF2DF /* ZCUIBaseController.h */; };
+		99F7395C757AB9BE2F7E813319298E33 /* ZCWebTitleBack_pressed@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F561D5172F1169FCE6B43B65D6671969 /* ZCWebTitleBack_pressed@2x.png */; };
+		A306496E9647408F75BBF62DB6264F04 /* ZCPop_green_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0EA853DAC3EFD658BA19890259DBC39F /* ZCPop_green_normal@2x.png */; };
+		A827C05CBE76861ADF1411DABAECB419 /* ZCRecording_timeshort@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0F69F5CF50FD9C653365731E132C7187 /* ZCRecording_timeshort@2x.png */; };
+		AC5DC123FA6E6A553A1C75F5003B7CBB /* avatar_robot@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0A428A1EB6105625051AE9548281A136 /* avatar_robot@3x.png */; };
+		AEE5C3E366865A64F23A59D12E54311A /* ZCRecording_volum5@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8382B7CD9A92B85EC946DCB6B7C6933F /* ZCRecording_volum5@2x.png */; };
+		B50D9904DBF406A9C0D5C678007EA300 /* ZCicon_loading.png in Sources */ = {isa = PBXBuildFile; fileRef = EB6BAF8E39AAF23CFAF45C06DCC70A68 /* ZCicon_loading.png */; };
+		B72532C51A4D2C4D2CD5340AC8776769 /* ZCicon_loading@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C0201CD77A9C77CCCC876F4B6A52A9F0 /* ZCicon_loading@2x.png */; };
+		BC31E455AB774460186DBAA8D7F725AE /* avatar_customerservice@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = B1286BC7C9C86A444D2CC72F5A76D7A9 /* avatar_customerservice@3x.png */; };
+		BC6C522303AB98754C638D11DA7F3874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115238DB298904FCADF1E56DDFAF963C /* Foundation.framework */; };
 		C6FCC9A29E4DFB3861C549FF9E5BEA37 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC55C7C89C4A7D3B931D5A9AC0B79829 /* Pods-dummy.m */; };
-		C745B5C57E3902692D19D458FAA2AF8E /* TestDemoTo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DACB7274BF99FF33B8884B7A1D9B9C /* TestDemoTo-dummy.m */; };
+		CB5363703D4268BBEC2FFF8A56F51848 /* ZCWebNext@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 743D553B14ABF091CD97307EE2FBC706 /* ZCWebNext@2x.png */; };
+		D079557EEBC1503E423D0B1805FB13CD /* ZCWebNext.png in Sources */ = {isa = PBXBuildFile; fileRef = 55540A445FC5B106C0A067BC898434D9 /* ZCWebNext.png */; };
+		D38749FD7BA24E20FCE5B94F74FF7EE6 /* ZCPop_voice_receive_anime_5@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = A3A0011AA06725F8050913F931ADB7C0 /* ZCPop_voice_receive_anime_5@2x.png */; };
+		D8136DE791B4C74F6B4778244F967C5F /* ZCRecording_cancel@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8C844061D5513690D0B48FB266DD24C3 /* ZCRecording_cancel@2x.png */; };
+		D8140607A3BDDCFFBE488B9720D26EC8 /* ZCPop_voice_send_anime_5@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 71A3CCBA1B9BB0856BD2D86A3702A686 /* ZCPop_voice_send_anime_5@2x.png */; };
+		DA0B725961FC207CD0C6289C5CA33140 /* ZCIcon_voice_pressed@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D86269D36CA4D214B51EDFAFA152F18F /* ZCIcon_voice_pressed@2x.png */; };
+		DE0E81B97F2F8B951B148AAD8F7FC68C /* ZCRecording_volum1@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DB4DD486AD1789D67E4BDF6BD0983548 /* ZCRecording_volum1@2x.png */; };
+		DE9CCAE7958B5D49FB4A2B4EE0395F40 /* ZCPop_green_left_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F8402B746058FD48831144065ED2C098 /* ZCPop_green_left_normal@2x.png */; };
+		E1E241CA2ACC8C3079C27A7CA5014830 /* ZCPop_voice_send_anime_1@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2D23BD01C1FB8500391B1E239B448807 /* ZCPop_voice_send_anime_1@2x.png */; };
+		E8D6AE6445D8A758D2143C00488A8916 /* ZCRecording_volum2@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 417A93BD5FD9319B5D3F6C3DAF4656C2 /* ZCRecording_volum2@2x.png */; };
+		E9A0C27FDB916A1869E6D2B7AC2DC021 /* ZCWebTitleBack_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B44C66C08C3B22EAC08B75C3F876D /* ZCWebTitleBack_normal@2x.png */; };
+		EB873A0C2BC09D5818180F2B374DD1A2 /* ZCPop_voice_receive_anime_3@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2818A4281CEF3682B2A9CD95353E68FA /* ZCPop_voice_receive_anime_3@2x.png */; };
+		F10D211F735A8E801F4A88F003FFAD3B /* ZCRecording_volum3@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3E72E4CDF69A437A142A22A2475E872C /* ZCRecording_volum3@2x.png */; };
+		F25CBF6BA3A49EB312EDC7E5A7994748 /* ZCPop_voice_receive_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8B7FBED67B8360F8699EDEFAEE3C3DCF /* ZCPop_voice_receive_normal@2x.png */; };
+		F75118C2329F6B6BC6F095E54C63BDEC /* ZCStar_unsatisfied@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB2E46D8DD61682D7C5AFB04425F7B /* ZCStar_unsatisfied@2x.png */; };
+		F85051A96169496EAC596E04A70E8E68 /* ZCIcon_picture_pressed@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D10B0554297361E3364522D7C589B54A /* ZCIcon_picture_pressed@2x.png */; };
+		FC3EC6201431729E2D572F4051BD6F46 /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = 60521BEE700C9A171367B4A76807DFA9 /* CodeRequirements */; };
+		FE2888BCCECF871DEF42601881082D5E /* ZCIcon_voice_normal@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0C03D7A88F615AA147103E813B77CEA7 /* ZCIcon_voice_normal@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E020CFC460737048ACAAB4DB1180A278 /* PBXContainerItemProxy */ = {
+		C7FB1B907DAAB2C277F9BE0F17B2EAC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6E57BE2BD77DDBC9C763549BCFA5F1A;
+			remoteGlobalIDString = 569E5D62A82C552CEB1E2FB672386248;
 			remoteInfo = TestDemoTo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		056CE8BD2BB4F8FDED9AE3B6869CBEB7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		0970A3EC6A2C1F7005B749AE4137790B /* ZCPop_voice_send_anime_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_send_anime_3@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_send_anime_3@2x.png"; sourceTree = "<group>"; };
+		0A428A1EB6105625051AE9548281A136 /* avatar_robot@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avatar_robot@3x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/avatar_robot@3x.png"; sourceTree = "<group>"; };
+		0A5B25B82B075C48C98A8D9E89F4DD1E /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CodeSignature; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/_CodeSignature/CodeSignature; sourceTree = "<group>"; };
+		0C03D7A88F615AA147103E813B77CEA7 /* ZCIcon_voice_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_voice_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_voice_normal@2x.png"; sourceTree = "<group>"; };
+		0EA853DAC3EFD658BA19890259DBC39F /* ZCPop_green_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_green_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_green_normal@2x.png"; sourceTree = "<group>"; };
+		0F69F5CF50FD9C653365731E132C7187 /* ZCRecording_timeshort@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCRecording_timeshort@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCRecording_timeshort@2x.png"; sourceTree = "<group>"; };
+		115238DB298904FCADF1E56DDFAF963C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		20AA83521C4A67A6722EB8076519E0A1 /* ZCUIBaseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCUIBaseController.h; path = TestDemo/TestDemoTo/TestDemoTo.framework/Headers/ZCUIBaseController.h; sourceTree = "<group>"; };
-		21FCDE788A0615DF42A37EC6489BBC45 /* ZCKitInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCKitInfo.h; path = TestDemo/TestDemoTo/TestDemoTo.framework/Headers/ZCKitInfo.h; sourceTree = "<group>"; };
-		2B903EE1559C5D202DB03871B22A6986 /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CodeDirectory; path = TestDemo/TestDemoTo/TestDemoTo.framework/_CodeSignature/CodeDirectory; sourceTree = "<group>"; };
-		41375492B0CEFBE107B051589BB4AD12 /* TestDemoTo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TestDemoTo-Private.xcconfig"; sourceTree = "<group>"; };
-		44DAD29664858F1A7B7F5D6DC74C6BDC /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = CodeResources; path = TestDemo/TestDemoTo/TestDemoTo.framework/_CodeSignature/CodeResources; sourceTree = "<group>"; };
-		513C2D6457F942A01A645F1EE189D991 /* TestDemoTo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestDemoTo.xcconfig; sourceTree = "<group>"; };
+		1B9B74CD9F9C34BDE0939B5164C6B8F1 /* avatar_robot@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avatar_robot@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/avatar_robot@2x.png"; sourceTree = "<group>"; };
+		25F24C47773B21591B8DCBDBA3637CB7 /* ZCIcon_send_fail@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_send_fail@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_send_fail@2x.png"; sourceTree = "<group>"; };
+		2818A4281CEF3682B2A9CD95353E68FA /* ZCPop_voice_receive_anime_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_receive_anime_3@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_receive_anime_3@2x.png"; sourceTree = "<group>"; };
+		28B3C8E641E1E3EE6235C593A7FA5E26 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/Modules/module.modulemap; sourceTree = "<group>"; };
+		2A3885E8C099B9227B9DB579A1C441A2 /* ZCWebBack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCWebBack@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCWebBack@2x.png"; sourceTree = "<group>"; };
+		2CDD47A6D418E6A81E34E534EEC00DDA /* ZCUIChatController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCUIChatController.h; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/Headers/ZCUIChatController.h; sourceTree = "<group>"; };
+		2D23BD01C1FB8500391B1E239B448807 /* ZCPop_voice_send_anime_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_send_anime_1@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_send_anime_1@2x.png"; sourceTree = "<group>"; };
+		35B408FF46269612E34B7CAE3BE26910 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = Rong_Cloud_iOS_SDK_v2_4_2_stable/RongIMLib.framework; sourceTree = "<group>"; };
+		36FB5599125F190CFC40F2347425547A /* TestDemoTo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestDemoTo.xcconfig; sourceTree = "<group>"; };
+		3DEEE941B232E8717C2F377D97F880B0 /* ZCRecording_mike@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCRecording_mike@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCRecording_mike@2x.png"; sourceTree = "<group>"; };
+		3E72E4CDF69A437A142A22A2475E872C /* ZCRecording_volum3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCRecording_volum3@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCRecording_volum3@2x.png"; sourceTree = "<group>"; };
+		3E88BE82F1B425B370921235708851F6 /* ZCPop_voice_receive_anime_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_receive_anime_4@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_receive_anime_4@2x.png"; sourceTree = "<group>"; };
+		417A93BD5FD9319B5D3F6C3DAF4656C2 /* ZCRecording_volum2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCRecording_volum2@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCRecording_volum2@2x.png"; sourceTree = "<group>"; };
+		41AE724832427947F1D363D5293351B4 /* ZCPop_voice_send_anime_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_send_anime_2@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_send_anime_2@2x.png"; sourceTree = "<group>"; };
+		47BC442F4857ABFC637D1C55905C2767 /* pop_green_left_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pop_green_left_pressed@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/pop_green_left_pressed@2x.png"; sourceTree = "<group>"; };
+		4830EEF5B9C79D11B34E0602B4F5BF45 /* ZCPop_voice_receive_anime_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_receive_anime_1@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_receive_anime_1@2x.png"; sourceTree = "<group>"; };
+		48B4D3F8B948731B747CB98A3B948E38 /* SobotKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SobotKit.h; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/Headers/SobotKit.h; sourceTree = "<group>"; };
+		49BA53FECFD4653C4A4FC5244D816DAA /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = CodeResources; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/_CodeSignature/CodeResources; sourceTree = "<group>"; };
+		4BFB2E46D8DD61682D7C5AFB04425F7B /* ZCStar_unsatisfied@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCStar_unsatisfied@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCStar_unsatisfied@2x.png"; sourceTree = "<group>"; };
+		54D57582EEB1F4C53D705AEEB59E1B86 /* ZCIcon_manualwork_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_manualwork_pressed@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_manualwork_pressed@2x.png"; sourceTree = "<group>"; };
+		55540A445FC5B106C0A067BC898434D9 /* ZCWebNext.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZCWebNext.png; path = TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCWebNext.png; sourceTree = "<group>"; };
 		570DE61C9E10E4DC1A9E55F26A84D50B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E58E17611496050C18C78BA35CF1AAA /* libTestDemoTo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestDemoTo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8B44C66C08C3B22EAC08B75C3F876D /* ZCWebTitleBack_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCWebTitleBack_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCWebTitleBack_normal@2x.png"; sourceTree = "<group>"; };
+		5B66D1222C66C19AE94874A11BBB9A6B /* ZCSobot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCSobot.h; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/Headers/ZCSobot.h; sourceTree = "<group>"; };
+		5FB224E6CA0F5B2BC51D881DF8A3EB7E /* ZCStar_satisfied@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCStar_satisfied@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCStar_satisfied@2x.png"; sourceTree = "<group>"; };
+		60521BEE700C9A171367B4A76807DFA9 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CodeRequirements; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/_CodeSignature/CodeRequirements; sourceTree = "<group>"; };
 		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		6ABBB2AC3321804EAF580D73289D7740 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CodeSignature; path = TestDemo/TestDemoTo/TestDemoTo.framework/_CodeSignature/CodeSignature; sourceTree = "<group>"; };
-		9DF39633CE4F0B3B56FEFEE613D544BB /* SobotKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SobotKit.h; path = TestDemo/TestDemoTo/TestDemoTo.framework/Headers/SobotKit.h; sourceTree = "<group>"; };
-		A6728F90F8D3BF8D054FDE8A4EBF7274 /* TestDemoTo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestDemoTo-prefix.pch"; sourceTree = "<group>"; };
+		649E31C83946C44A37359CB9674CBB36 /* ZCIcon_picture_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_picture_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_picture_normal@2x.png"; sourceTree = "<group>"; };
+		651FAF4E3150628AC0A5AE7A79FD20B3 /* ZCIcon_keyboard_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_keyboard_pressed@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_keyboard_pressed@2x.png"; sourceTree = "<group>"; };
+		6D44590B2CD4A4EAE9EEAF1377607AFA /* ZCIcon_manualwork_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_manualwork_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_manualwork_normal@2x.png"; sourceTree = "<group>"; };
+		71A3CCBA1B9BB0856BD2D86A3702A686 /* ZCPop_voice_send_anime_5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_send_anime_5@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_send_anime_5@2x.png"; sourceTree = "<group>"; };
+		743D553B14ABF091CD97307EE2FBC706 /* ZCWebNext@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCWebNext@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCWebNext@2x.png"; sourceTree = "<group>"; };
+		76937B769B4E70BCCD776C808E48FD9A /* ZCIcon_nonet@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_nonet@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_nonet@2x.png"; sourceTree = "<group>"; };
+		83151215E8B0D429066A9E3885483F1A /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "Rong_Cloud_iOS_SDK_v2_4_2_stable/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		8382B7CD9A92B85EC946DCB6B7C6933F /* ZCRecording_volum5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCRecording_volum5@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCRecording_volum5@2x.png"; sourceTree = "<group>"; };
+		8786103DC2CCF85327AEEBB7D835358F /* ZCLibInitInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCLibInitInfo.h; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/Headers/ZCLibInitInfo.h; sourceTree = "<group>"; };
+		8B7FBED67B8360F8699EDEFAEE3C3DCF /* ZCPop_voice_receive_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_receive_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_receive_normal@2x.png"; sourceTree = "<group>"; };
+		8C844061D5513690D0B48FB266DD24C3 /* ZCRecording_cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCRecording_cancel@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCRecording_cancel@2x.png"; sourceTree = "<group>"; };
+		8D05533AEAB717BC5ADCA8FCE60436BC /* ZCIcon_tag_nonet@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_tag_nonet@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_tag_nonet@2x.png"; sourceTree = "<group>"; };
+		8E73D69DF2FBB12918E06505ECBD0491 /* libTestDemoTo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestDemoTo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EED59E6565E68E450B84F2C91A13EA5 /* pop_green_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pop_green_pressed@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/pop_green_pressed@2x.png"; sourceTree = "<group>"; };
+		9073A6054C6E37055B8A4D34107BEDB0 /* TestDemoTo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TestDemoTo-Private.xcconfig"; sourceTree = "<group>"; };
+		97CB761EA4CFA63D013B4C051D71B9E5 /* ZCKitInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCKitInfo.h; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/Headers/ZCKitInfo.h; sourceTree = "<group>"; };
+		994EA2E15750DB11010F64BEA4ECF7F5 /* ZCPop_voice_send_anime_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_send_anime_4@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_send_anime_4@2x.png"; sourceTree = "<group>"; };
+		9A318F28F456F682AD308130A0BAC42C /* ZCPop_voice_send_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_send_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_send_normal@2x.png"; sourceTree = "<group>"; };
+		9DB4CF1577A415AF970BB91BFDA37BAB /* ZCRecording_volum4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCRecording_volum4@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCRecording_volum4@2x.png"; sourceTree = "<group>"; };
+		A3A0011AA06725F8050913F931ADB7C0 /* ZCPop_voice_receive_anime_5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_receive_anime_5@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_receive_anime_5@2x.png"; sourceTree = "<group>"; };
 		AC55C7C89C4A7D3B931D5A9AC0B79829 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		B047FC4CC96EA7BD6052B6FB1033C457 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B1556C8C153D10AE1386145BD9BD419E /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = TestDemo/TestDemoTo/TestDemoTo.framework/Modules/module.modulemap; sourceTree = "<group>"; };
-		B2DACB7274BF99FF33B8884B7A1D9B9C /* TestDemoTo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestDemoTo-dummy.m"; sourceTree = "<group>"; };
-		B7648CDA091763719E61B635C2193638 /* ZCSobot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCSobot.h; path = TestDemo/TestDemoTo/TestDemoTo.framework/Headers/ZCSobot.h; sourceTree = "<group>"; };
+		B1286BC7C9C86A444D2CC72F5A76D7A9 /* avatar_customerservice@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avatar_customerservice@3x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/avatar_customerservice@3x.png"; sourceTree = "<group>"; };
+		B3D4B87510648B27E31F2F510B56227F /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CodeDirectory; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/_CodeSignature/CodeDirectory; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDF73EC39B29AB6820206632742A0F4E /* ZCLibInitInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCLibInitInfo.h; path = TestDemo/TestDemoTo/TestDemoTo.framework/Headers/ZCLibInitInfo.h; sourceTree = "<group>"; };
 		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		D3AB39A53DCF6C9592BBFDBC896EEBAB /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CodeRequirements; path = TestDemo/TestDemoTo/TestDemoTo.framework/_CodeSignature/CodeRequirements; sourceTree = "<group>"; };
+		C0201CD77A9C77CCCC876F4B6A52A9F0 /* ZCicon_loading@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCicon_loading@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCicon_loading@2x.png"; sourceTree = "<group>"; };
+		C8561FD65B4459AECCF266991F6D139F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/Info.plist; sourceTree = "<group>"; };
+		D10B0554297361E3364522D7C589B54A /* ZCIcon_picture_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_picture_pressed@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_picture_pressed@2x.png"; sourceTree = "<group>"; };
+		D68B3CEAF1521CCDAC881A02C0DE7327 /* ZCPop_voice_receive_anime_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_voice_receive_anime_2@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_voice_receive_anime_2@2x.png"; sourceTree = "<group>"; };
+		D712E19BC3F7D2ADCD9C3BC30F8C5AC6 /* ZCIcon_keyboard_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_keyboard_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_keyboard_normal@2x.png"; sourceTree = "<group>"; };
+		D86269D36CA4D214B51EDFAFA152F18F /* ZCIcon_voice_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCIcon_voice_pressed@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCIcon_voice_pressed@2x.png"; sourceTree = "<group>"; };
+		DB4DD486AD1789D67E4BDF6BD0983548 /* ZCRecording_volum1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCRecording_volum1@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCRecording_volum1@2x.png"; sourceTree = "<group>"; };
 		E397B99E157958C46F7017B356888CF7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		EA066AFE1BB1C2048BD8B56227AB9C9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestDemo/TestDemoTo/TestDemoTo.framework/Info.plist; sourceTree = "<group>"; };
-		EB0634F6AC8434547A82DCCFC225F801 /* ZCUIChatController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCUIChatController.h; path = TestDemo/TestDemoTo/TestDemoTo.framework/Headers/ZCUIChatController.h; sourceTree = "<group>"; };
-		F15A94DDA1B08F01C5EF2D10A83ED7BD /* SobotKit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = SobotKit; path = TestDemo/TestDemoTo/TestDemoTo.framework/SobotKit; sourceTree = "<group>"; };
+		E4E973184BB28B049AE89A98DE7DE47E /* avatar_customerservice@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avatar_customerservice@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/avatar_customerservice@2x.png"; sourceTree = "<group>"; };
+		EA8A840FE0E8902F21E5FC9EBD1BF2DF /* ZCUIBaseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCUIBaseController.h; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/Headers/ZCUIBaseController.h; sourceTree = "<group>"; };
+		EB6BAF8E39AAF23CFAF45C06DCC70A68 /* ZCicon_loading.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZCicon_loading.png; path = TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCicon_loading.png; sourceTree = "<group>"; };
+		F13139AECD2ED3891FE298B745D58CD1 /* TestDemoTo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestDemoTo-prefix.pch"; sourceTree = "<group>"; };
+		F561D5172F1169FCE6B43B65D6671969 /* ZCWebTitleBack_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCWebTitleBack_pressed@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCWebTitleBack_pressed@2x.png"; sourceTree = "<group>"; };
+		F8402B746058FD48831144065ED2C098 /* ZCPop_green_left_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCPop_green_left_normal@2x.png"; path = "TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCPop_green_left_normal@2x.png"; sourceTree = "<group>"; };
+		FC281A6EE473F28B274E11419102502E /* SobotKit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = SobotKit; path = TestDemoTo/TestDemoToFramework/TestDemoTo.framework/SobotKit; sourceTree = "<group>"; };
+		FE060487989A8DCE6A60E38E72A7F656 /* TestDemoTo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestDemoTo-dummy.m"; sourceTree = "<group>"; };
+		FE10DF2E2ADD9084FB860B2179FAE135 /* ZCWebBack.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ZCWebBack.png; path = TestDemoTo/TestDemoToBundle/TestDemoTo.bundle/ZCWebBack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,52 +175,114 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE86664D1D1F135351A00171B7E04341 /* Frameworks */ = {
+		E59DA8C9B6769BDE2D7CBAA0C86D684A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02AAD72D8B34003CD54DFA89BFB1308A /* Foundation.framework in Frameworks */,
+				672BDD82810C26E6BBF7C036EFE2A665 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00315779AE30B293AD207C4B683ED910 /* Pods */ = {
+		03987B72511049A3067C5AF9FAE6338A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21C370A47F11A46B32E5AA62DE2A690C /* TestDemoTo */,
+				35B408FF46269612E34B7CAE3BE26910 /* RongIMLib.framework */,
+				83151215E8B0D429066A9E3885483F1A /* libopencore-amrnb.a */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		21C370A47F11A46B32E5AA62DE2A690C /* TestDemoTo */ = {
+		17349873C1AC805115CF30064C580871 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B903EE1559C5D202DB03871B22A6986 /* CodeDirectory */,
-				D3AB39A53DCF6C9592BBFDBC896EEBAB /* CodeRequirements */,
-				44DAD29664858F1A7B7F5D6DC74C6BDC /* CodeResources */,
-				6ABBB2AC3321804EAF580D73289D7740 /* CodeSignature */,
-				EA066AFE1BB1C2048BD8B56227AB9C9D /* Info.plist */,
-				F15A94DDA1B08F01C5EF2D10A83ED7BD /* SobotKit */,
-				9DF39633CE4F0B3B56FEFEE613D544BB /* SobotKit.h */,
-				21FCDE788A0615DF42A37EC6489BBC45 /* ZCKitInfo.h */,
-				BDF73EC39B29AB6820206632742A0F4E /* ZCLibInitInfo.h */,
-				B7648CDA091763719E61B635C2193638 /* ZCSobot.h */,
-				20AA83521C4A67A6722EB8076519E0A1 /* ZCUIBaseController.h */,
-				EB0634F6AC8434547A82DCCFC225F801 /* ZCUIChatController.h */,
-				B1556C8C153D10AE1386145BD9BD419E /* module.modulemap */,
-				95976BAE1349AB7CCCBD44CF5F007D98 /* Support Files */,
+				36FB5599125F190CFC40F2347425547A /* TestDemoTo.xcconfig */,
+				9073A6054C6E37055B8A4D34107BEDB0 /* TestDemoTo-Private.xcconfig */,
+				FE060487989A8DCE6A60E38E72A7F656 /* TestDemoTo-dummy.m */,
+				F13139AECD2ED3891FE298B745D58CD1 /* TestDemoTo-prefix.pch */,
 			);
-			path = TestDemoTo;
+			name = "Support Files";
+			path = "../Target Support Files/TestDemoTo";
 			sourceTree = "<group>";
 		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B047FC4CC96EA7BD6052B6FB1033C457 /* Foundation.framework */,
+				115238DB298904FCADF1E56DDFAF963C /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		67238727A260A90E8471A2D527395D19 /* TestDemoTo */ = {
+			isa = PBXGroup;
+			children = (
+				B3D4B87510648B27E31F2F510B56227F /* CodeDirectory */,
+				60521BEE700C9A171367B4A76807DFA9 /* CodeRequirements */,
+				49BA53FECFD4653C4A4FC5244D816DAA /* CodeResources */,
+				0A5B25B82B075C48C98A8D9E89F4DD1E /* CodeSignature */,
+				C8561FD65B4459AECCF266991F6D139F /* Info.plist */,
+				FC281A6EE473F28B274E11419102502E /* SobotKit */,
+				48B4D3F8B948731B747CB98A3B948E38 /* SobotKit.h */,
+				D712E19BC3F7D2ADCD9C3BC30F8C5AC6 /* ZCIcon_keyboard_normal@2x.png */,
+				651FAF4E3150628AC0A5AE7A79FD20B3 /* ZCIcon_keyboard_pressed@2x.png */,
+				6D44590B2CD4A4EAE9EEAF1377607AFA /* ZCIcon_manualwork_normal@2x.png */,
+				54D57582EEB1F4C53D705AEEB59E1B86 /* ZCIcon_manualwork_pressed@2x.png */,
+				76937B769B4E70BCCD776C808E48FD9A /* ZCIcon_nonet@2x.png */,
+				649E31C83946C44A37359CB9674CBB36 /* ZCIcon_picture_normal@2x.png */,
+				D10B0554297361E3364522D7C589B54A /* ZCIcon_picture_pressed@2x.png */,
+				25F24C47773B21591B8DCBDBA3637CB7 /* ZCIcon_send_fail@2x.png */,
+				8D05533AEAB717BC5ADCA8FCE60436BC /* ZCIcon_tag_nonet@2x.png */,
+				0C03D7A88F615AA147103E813B77CEA7 /* ZCIcon_voice_normal@2x.png */,
+				D86269D36CA4D214B51EDFAFA152F18F /* ZCIcon_voice_pressed@2x.png */,
+				97CB761EA4CFA63D013B4C051D71B9E5 /* ZCKitInfo.h */,
+				8786103DC2CCF85327AEEBB7D835358F /* ZCLibInitInfo.h */,
+				F8402B746058FD48831144065ED2C098 /* ZCPop_green_left_normal@2x.png */,
+				0EA853DAC3EFD658BA19890259DBC39F /* ZCPop_green_normal@2x.png */,
+				4830EEF5B9C79D11B34E0602B4F5BF45 /* ZCPop_voice_receive_anime_1@2x.png */,
+				D68B3CEAF1521CCDAC881A02C0DE7327 /* ZCPop_voice_receive_anime_2@2x.png */,
+				2818A4281CEF3682B2A9CD95353E68FA /* ZCPop_voice_receive_anime_3@2x.png */,
+				3E88BE82F1B425B370921235708851F6 /* ZCPop_voice_receive_anime_4@2x.png */,
+				A3A0011AA06725F8050913F931ADB7C0 /* ZCPop_voice_receive_anime_5@2x.png */,
+				8B7FBED67B8360F8699EDEFAEE3C3DCF /* ZCPop_voice_receive_normal@2x.png */,
+				2D23BD01C1FB8500391B1E239B448807 /* ZCPop_voice_send_anime_1@2x.png */,
+				41AE724832427947F1D363D5293351B4 /* ZCPop_voice_send_anime_2@2x.png */,
+				0970A3EC6A2C1F7005B749AE4137790B /* ZCPop_voice_send_anime_3@2x.png */,
+				994EA2E15750DB11010F64BEA4ECF7F5 /* ZCPop_voice_send_anime_4@2x.png */,
+				71A3CCBA1B9BB0856BD2D86A3702A686 /* ZCPop_voice_send_anime_5@2x.png */,
+				9A318F28F456F682AD308130A0BAC42C /* ZCPop_voice_send_normal@2x.png */,
+				8C844061D5513690D0B48FB266DD24C3 /* ZCRecording_cancel@2x.png */,
+				3DEEE941B232E8717C2F377D97F880B0 /* ZCRecording_mike@2x.png */,
+				0F69F5CF50FD9C653365731E132C7187 /* ZCRecording_timeshort@2x.png */,
+				DB4DD486AD1789D67E4BDF6BD0983548 /* ZCRecording_volum1@2x.png */,
+				417A93BD5FD9319B5D3F6C3DAF4656C2 /* ZCRecording_volum2@2x.png */,
+				3E72E4CDF69A437A142A22A2475E872C /* ZCRecording_volum3@2x.png */,
+				9DB4CF1577A415AF970BB91BFDA37BAB /* ZCRecording_volum4@2x.png */,
+				8382B7CD9A92B85EC946DCB6B7C6933F /* ZCRecording_volum5@2x.png */,
+				5B66D1222C66C19AE94874A11BBB9A6B /* ZCSobot.h */,
+				5FB224E6CA0F5B2BC51D881DF8A3EB7E /* ZCStar_satisfied@2x.png */,
+				4BFB2E46D8DD61682D7C5AFB04425F7B /* ZCStar_unsatisfied@2x.png */,
+				EA8A840FE0E8902F21E5FC9EBD1BF2DF /* ZCUIBaseController.h */,
+				2CDD47A6D418E6A81E34E534EEC00DDA /* ZCUIChatController.h */,
+				FE10DF2E2ADD9084FB860B2179FAE135 /* ZCWebBack.png */,
+				2A3885E8C099B9227B9DB579A1C441A2 /* ZCWebBack@2x.png */,
+				55540A445FC5B106C0A067BC898434D9 /* ZCWebNext.png */,
+				743D553B14ABF091CD97307EE2FBC706 /* ZCWebNext@2x.png */,
+				5A8B44C66C08C3B22EAC08B75C3F876D /* ZCWebTitleBack_normal@2x.png */,
+				F561D5172F1169FCE6B43B65D6671969 /* ZCWebTitleBack_pressed@2x.png */,
+				EB6BAF8E39AAF23CFAF45C06DCC70A68 /* ZCicon_loading.png */,
+				C0201CD77A9C77CCCC876F4B6A52A9F0 /* ZCicon_loading@2x.png */,
+				E4E973184BB28B049AE89A98DE7DE47E /* avatar_customerservice@2x.png */,
+				B1286BC7C9C86A444D2CC72F5A76D7A9 /* avatar_customerservice@3x.png */,
+				1B9B74CD9F9C34BDE0939B5164C6B8F1 /* avatar_robot@2x.png */,
+				0A428A1EB6105625051AE9548281A136 /* avatar_robot@3x.png */,
+				28B3C8E641E1E3EE6235C593A7FA5E26 /* module.modulemap */,
+				47BC442F4857ABFC637D1C55905C2767 /* pop_green_left_pressed@2x.png */,
+				8EED59E6565E68E450B84F2C91A13EA5 /* pop_green_pressed@2x.png */,
+				17349873C1AC805115CF30064C580871 /* Support Files */,
+			);
+			path = TestDemoTo;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -128,7 +290,7 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				00315779AE30B293AD207C4B683ED910 /* Pods */,
+				C377D1B6C70C1A7276BFF4B199312D4A /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
 			);
@@ -148,18 +310,6 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		95976BAE1349AB7CCCBD44CF5F007D98 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				513C2D6457F942A01A645F1EE189D991 /* TestDemoTo.xcconfig */,
-				41375492B0CEFBE107B051589BB4AD12 /* TestDemoTo-Private.xcconfig */,
-				B2DACB7274BF99FF33B8884B7A1D9B9C /* TestDemoTo-dummy.m */,
-				A6728F90F8D3BF8D054FDE8A4EBF7274 /* TestDemoTo-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TestDemoTo";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,11 +318,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C2CC5A1534DD445D9900A11207FD7018 /* RongCloudIMLib */ = {
+			isa = PBXGroup;
+			children = (
+				03987B72511049A3067C5AF9FAE6338A /* Frameworks */,
+			);
+			path = RongCloudIMLib;
+			sourceTree = "<group>";
+		};
+		C377D1B6C70C1A7276BFF4B199312D4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC5A1534DD445D9900A11207FD7018 /* RongCloudIMLib */,
+				67238727A260A90E8471A2D527395D19 /* TestDemoTo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				570DE61C9E10E4DC1A9E55F26A84D50B /* libPods.a */,
-				5E58E17611496050C18C78BA35CF1AAA /* libTestDemoTo.a */,
+				8E73D69DF2FBB12918E06505ECBD0491 /* libTestDemoTo.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,22 +355,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DDB2ECBE9CE76162F0ACAE8916E7B952 /* Headers */ = {
+		A429E9CAEAB70D06AFB7AEC15F0D275F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9591198E717515AD51C6E13B91C866F8 /* SobotKit.h in Headers */,
-				05F70CE04EC7C90CB9517E81F375CBE7 /* ZCKitInfo.h in Headers */,
-				115E326D06D825EB631B2CAB3B357A52 /* ZCLibInitInfo.h in Headers */,
-				63B5179987D948E64B885FE2C1475184 /* ZCSobot.h in Headers */,
-				5A08829A1F59AB64C92046E58CA77CBF /* ZCUIBaseController.h in Headers */,
-				0A5D824470CAF0CFCD4EF3ED7EAD8CC3 /* ZCUIChatController.h in Headers */,
+				4062CD94C1A9F4AA22FB14512EF08720 /* SobotKit.h in Headers */,
+				8242C67B5BDD97BCC05E75B6FCEF1A58 /* ZCKitInfo.h in Headers */,
+				191C89497238667A948F196FAB42A914 /* ZCLibInitInfo.h in Headers */,
+				8990B202F235650478A6E659BB92122F /* ZCSobot.h in Headers */,
+				98967B3003CFE91916EA1C7A6D448E06 /* ZCUIBaseController.h in Headers */,
+				419746E334ED8DC65D51F81F4E827445 /* ZCUIChatController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		569E5D62A82C552CEB1E2FB672386248 /* TestDemoTo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33A016CAC31A5C4BCE85F46436651FA /* Build configuration list for PBXNativeTarget "TestDemoTo" */;
+			buildPhases = (
+				8BBEDD6A8ADE99B5AB9C62D1E49FDEE4 /* Sources */,
+				E59DA8C9B6769BDE2D7CBAA0C86D684A /* Frameworks */,
+				A429E9CAEAB70D06AFB7AEC15F0D275F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestDemoTo;
+			productName = TestDemoTo;
+			productReference = 8E73D69DF2FBB12918E06505ECBD0491 /* libTestDemoTo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		6ED76232433F2440BBF790376CF9A653 /* Pods */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 322965F6546F1F712F396EE7577F4D98 /* Build configuration list for PBXNativeTarget "Pods" */;
@@ -214,28 +398,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				8AEEF87F0BEFE78C047D409C09B60F6B /* PBXTargetDependency */,
+				0F2C942A1A5E2C4C2828B70EB36EBF4A /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
 			productReference = 570DE61C9E10E4DC1A9E55F26A84D50B /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A6E57BE2BD77DDBC9C763549BCFA5F1A /* TestDemoTo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47F0CDC9AB28A14C36FF1CEF8CFB91ED /* Build configuration list for PBXNativeTarget "TestDemoTo" */;
-			buildPhases = (
-				8D2A6360472A36D6FBC4968AC0B860B4 /* Sources */,
-				EE86664D1D1F135351A00171B7E04341 /* Frameworks */,
-				DDB2ECBE9CE76162F0ACAE8916E7B952 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TestDemoTo;
-			productName = TestDemoTo;
-			productReference = 5E58E17611496050C18C78BA35CF1AAA /* libTestDemoTo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -260,24 +427,73 @@
 			projectRoot = "";
 			targets = (
 				6ED76232433F2440BBF790376CF9A653 /* Pods */,
-				A6E57BE2BD77DDBC9C763549BCFA5F1A /* TestDemoTo */,
+				569E5D62A82C552CEB1E2FB672386248 /* TestDemoTo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D2A6360472A36D6FBC4968AC0B860B4 /* Sources */ = {
+		8BBEDD6A8ADE99B5AB9C62D1E49FDEE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44CDAD0E6EFA0AD5A6E7D5B0B0297BBF /* CodeDirectory in Sources */,
-				073E6DA2BF24B72B2F63ECBF903AFA32 /* CodeRequirements in Sources */,
-				47DC9291158AF6B3941C55D6FD28C6D1 /* CodeResources in Sources */,
-				7F98BDD5A9FFF8ED3E985EF0F92F27C9 /* CodeSignature in Sources */,
-				068595C208F62D3C91DB34367A6C71D9 /* Info.plist in Sources */,
-				184DEF9DF616365301DEAEE00D28CF54 /* SobotKit in Sources */,
-				C745B5C57E3902692D19D458FAA2AF8E /* TestDemoTo-dummy.m in Sources */,
-				93C90DB3E3D1359F77D4A4981D289B7C /* module.modulemap in Sources */,
+				6A04FB5B17809ABCE6DD250BB5549CA5 /* CodeDirectory in Sources */,
+				FC3EC6201431729E2D572F4051BD6F46 /* CodeRequirements in Sources */,
+				7C4447C9ACAF7C86AEB9639CCD0CF069 /* CodeResources in Sources */,
+				5D3AB5984517B8102A1E2C8755AFE8A7 /* CodeSignature in Sources */,
+				5F063E8BB27D9360A750932F296C9B0F /* Info.plist in Sources */,
+				6E969AEB00CA2E2E6F0F40A0C1B01E4F /* SobotKit in Sources */,
+				3A340CCE961F0C1DC8F754626F9CEDDE /* TestDemoTo-dummy.m in Sources */,
+				452C76FF5E1E6BB2091CEC1E2661AAC1 /* ZCIcon_keyboard_normal@2x.png in Sources */,
+				280BB1F8D9CD207F6E904604130EFBA3 /* ZCIcon_keyboard_pressed@2x.png in Sources */,
+				10EEDB01F86AFCE25B20F6BCA098100F /* ZCIcon_manualwork_normal@2x.png in Sources */,
+				66B8598E9F6B24B2C528E2361D792B45 /* ZCIcon_manualwork_pressed@2x.png in Sources */,
+				45F7F30F118873033C2F0DCFB2832A6D /* ZCIcon_nonet@2x.png in Sources */,
+				82B7A2CD0D93F430E2C8FD6756ED5881 /* ZCIcon_picture_normal@2x.png in Sources */,
+				F85051A96169496EAC596E04A70E8E68 /* ZCIcon_picture_pressed@2x.png in Sources */,
+				279C281FFBCC376E6E231F8FB2690429 /* ZCIcon_send_fail@2x.png in Sources */,
+				691864F999AA4ACE03608E8355741C34 /* ZCIcon_tag_nonet@2x.png in Sources */,
+				FE2888BCCECF871DEF42601881082D5E /* ZCIcon_voice_normal@2x.png in Sources */,
+				DA0B725961FC207CD0C6289C5CA33140 /* ZCIcon_voice_pressed@2x.png in Sources */,
+				DE9CCAE7958B5D49FB4A2B4EE0395F40 /* ZCPop_green_left_normal@2x.png in Sources */,
+				A306496E9647408F75BBF62DB6264F04 /* ZCPop_green_normal@2x.png in Sources */,
+				0975E6BC3AC04DF1C53F0B7DB371B0EE /* ZCPop_voice_receive_anime_1@2x.png in Sources */,
+				78C062B7CD36A766997977FCEFB61FA3 /* ZCPop_voice_receive_anime_2@2x.png in Sources */,
+				EB873A0C2BC09D5818180F2B374DD1A2 /* ZCPop_voice_receive_anime_3@2x.png in Sources */,
+				88AC97F6A6C55E4BE92865E4AFFFE2FC /* ZCPop_voice_receive_anime_4@2x.png in Sources */,
+				D38749FD7BA24E20FCE5B94F74FF7EE6 /* ZCPop_voice_receive_anime_5@2x.png in Sources */,
+				F25CBF6BA3A49EB312EDC7E5A7994748 /* ZCPop_voice_receive_normal@2x.png in Sources */,
+				E1E241CA2ACC8C3079C27A7CA5014830 /* ZCPop_voice_send_anime_1@2x.png in Sources */,
+				7BD2BA67D350322D80CEE899046BFC1B /* ZCPop_voice_send_anime_2@2x.png in Sources */,
+				0C7CD8554C3E2761707E11B2EC909006 /* ZCPop_voice_send_anime_3@2x.png in Sources */,
+				3C2F0CC40E04506BF59DB1640EF6A161 /* ZCPop_voice_send_anime_4@2x.png in Sources */,
+				D8140607A3BDDCFFBE488B9720D26EC8 /* ZCPop_voice_send_anime_5@2x.png in Sources */,
+				4B48C6E492F74944C9C50B502F78D647 /* ZCPop_voice_send_normal@2x.png in Sources */,
+				D8136DE791B4C74F6B4778244F967C5F /* ZCRecording_cancel@2x.png in Sources */,
+				5A5B72A0FE89FC8E8B902243817ADD7F /* ZCRecording_mike@2x.png in Sources */,
+				A827C05CBE76861ADF1411DABAECB419 /* ZCRecording_timeshort@2x.png in Sources */,
+				DE0E81B97F2F8B951B148AAD8F7FC68C /* ZCRecording_volum1@2x.png in Sources */,
+				E8D6AE6445D8A758D2143C00488A8916 /* ZCRecording_volum2@2x.png in Sources */,
+				F10D211F735A8E801F4A88F003FFAD3B /* ZCRecording_volum3@2x.png in Sources */,
+				8004F56F575FE66AB992F2E81C241489 /* ZCRecording_volum4@2x.png in Sources */,
+				AEE5C3E366865A64F23A59D12E54311A /* ZCRecording_volum5@2x.png in Sources */,
+				4828A1AE754F58815526A458A768C8CB /* ZCStar_satisfied@2x.png in Sources */,
+				F75118C2329F6B6BC6F095E54C63BDEC /* ZCStar_unsatisfied@2x.png in Sources */,
+				372F9D16612E40A7CA05854ACE7B77CA /* ZCWebBack.png in Sources */,
+				0D89AB561A89FA2EEC00A5AEAA79875A /* ZCWebBack@2x.png in Sources */,
+				D079557EEBC1503E423D0B1805FB13CD /* ZCWebNext.png in Sources */,
+				CB5363703D4268BBEC2FFF8A56F51848 /* ZCWebNext@2x.png in Sources */,
+				E9A0C27FDB916A1869E6D2B7AC2DC021 /* ZCWebTitleBack_normal@2x.png in Sources */,
+				99F7395C757AB9BE2F7E813319298E33 /* ZCWebTitleBack_pressed@2x.png in Sources */,
+				B50D9904DBF406A9C0D5C678007EA300 /* ZCicon_loading.png in Sources */,
+				B72532C51A4D2C4D2CD5340AC8776769 /* ZCicon_loading@2x.png in Sources */,
+				9481B1EFCB94D37DB03708A28AF4720B /* avatar_customerservice@2x.png in Sources */,
+				BC31E455AB774460186DBAA8D7F725AE /* avatar_customerservice@3x.png in Sources */,
+				8CD16E30E280649B0C4FF3A690C11951 /* avatar_robot@2x.png in Sources */,
+				AC5DC123FA6E6A553A1C75F5003B7CBB /* avatar_robot@3x.png in Sources */,
+				772D3A5997DC8B93C4B71F3A8071F730 /* module.modulemap in Sources */,
+				6B10F7CE15B60ED4F086F634FB0BC5C6 /* pop_green_left_pressed@2x.png in Sources */,
+				82075FAD6ACBD926AF18A054F8DD3CF6 /* pop_green_pressed@2x.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,18 +508,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8AEEF87F0BEFE78C047D409C09B60F6B /* PBXTargetDependency */ = {
+		0F2C942A1A5E2C4C2828B70EB36EBF4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TestDemoTo;
-			target = A6E57BE2BD77DDBC9C763549BCFA5F1A /* TestDemoTo */;
-			targetProxy = E020CFC460737048ACAAB4DB1180A278 /* PBXContainerItemProxy */;
+			target = 569E5D62A82C552CEB1E2FB672386248 /* TestDemoTo */;
+			targetProxy = C7FB1B907DAAB2C277F9BE0F17B2EAC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		206440490783429BC018C12F6662E4A4 /* Debug */ = {
+		8FA6845FC737A80B3DC6BE134AE02546 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41375492B0CEFBE107B051589BB4AD12 /* TestDemoTo-Private.xcconfig */;
+			baseConfigurationReference = 9073A6054C6E37055B8A4D34107BEDB0 /* TestDemoTo-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TestDemoTo/TestDemoTo-prefix.pch";
@@ -316,22 +532,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		95A5A3FB9212A7EFA1920888C838A9DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41375492B0CEFBE107B051589BB4AD12 /* TestDemoTo-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TestDemoTo/TestDemoTo-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		AFE28FEE3841D45040EB9B9B297F724C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -404,6 +604,22 @@
 			};
 			name = Debug;
 		};
+		C160EA6A771AE17B7A6C2B960EF717EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9073A6054C6E37055B8A4D34107BEDB0 /* TestDemoTo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TestDemoTo/TestDemoTo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -459,11 +675,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47F0CDC9AB28A14C36FF1CEF8CFB91ED /* Build configuration list for PBXNativeTarget "TestDemoTo" */ = {
+		D33A016CAC31A5C4BCE85F46436651FA /* Build configuration list for PBXNativeTarget "TestDemoTo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				206440490783429BC018C12F6662E4A4 /* Debug */,
-				95A5A3FB9212A7EFA1920888C838A9DE /* Release */,
+				8FA6845FC737A80B3DC6BE134AE02546 /* Debug */,
+				C160EA6A771AE17B7A6C2B960EF717EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

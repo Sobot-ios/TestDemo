@@ -1,10 +1,13 @@
 PODS:
-  - TestDemoTo (1.1.0)
+  - RongCloudIMLib (2.4.2)
+  - TestDemoTo (1.1.4)
 
 DEPENDENCIES:
-  - TestDemoTo (~> 1.1.0)
+  - RongCloudIMLib (~> 2.4.2)
+  - TestDemoTo (~> 1.1.4)
 
 SPEC CHECKSUMS:
-  TestDemoTo: e155667c68c0bc306239a41a229905fce16875f7
+  RongCloudIMLib: 680af6eb32f005bd375a1b8754b54668c536da8a
+  TestDemoTo: 9864e2729ba9b5d25ce26a5e0849f0eb3e677c38
 
 COCOAPODS: 0.38.2

@@ -1,5 +1,5 @@
 #include "TestDemoTo.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TestDemoTo" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TestDemoTo"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TestDemoTo" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/RongCloudIMLib" "${PODS_ROOT}/Headers/Public/RongCloudIMLib/RongIMLib" "${PODS_ROOT}/Headers/Public/TestDemoTo"
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES
