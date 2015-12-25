@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.summary      = "A demo for test."
 
   s.description  = <<-DESC
-                   A demo To test.
+                   A demo To test A demo To test A demo To test.
 
                    DESC
 
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
 
 
-   s.source_files  = 'TestDemo/*'
+   s.source_files  = 'TestDemo/**/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
