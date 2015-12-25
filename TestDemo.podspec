@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
 
 
-   s.source_files  = 'TestDemo/*.bundle','TestDemo/*.framework'
+   s.source_files  = 'TestDemo/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
