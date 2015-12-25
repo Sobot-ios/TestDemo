@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "TestDemoTo"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3"
   s.summary      = "A demo for test."
 
   s.description  = <<-DESC
@@ -39,11 +39,11 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/Sobot-ios/TestDemo.git", :tag => "1.1.2" }
+  s.source       = { :git => "https://github.com/Sobot-ios/TestDemo.git", :tag => "1.1.3" }
 
 
 
-   s.source_files  = 'TestDemoTo/*.framework','TestDemoTo/*.bundle'
+   s.source_files  = 'TestDemoTo/**/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
 
 
 
-  # s.framework  = "SomeFramework"
+    s.framework  = "TestDemoTo"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
