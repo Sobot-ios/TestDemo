@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.name         = "TestDemo"
+  s.name         = "TestDemoTo"
   s.version      = "1.0.3"
   s.summary      = "A demo for test."
 
