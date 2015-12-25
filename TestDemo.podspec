@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
 
 
   s.name         = "TestDemo"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "A demo for test."
 
   s.description  = <<-DESC
-                   A demo for test.
+                   A demo To test.
 
                    DESC
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/Sobot-ios/TestDemo.git", :tag => "1.0.5" }
+  s.source       = { :git => "https://github.com/Sobot-ios/TestDemo.git", :tag => "1.0.6" }
 
 
 
