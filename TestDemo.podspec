@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "TestDemo"
-  s.version      = "0.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A demo for test."
 
   s.description  = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
                    DESC
 
-  s.homepage     = "http://EXAMPLE/TestDemo"
+  s.homepage     = "https://github.com/Sobot-ios/TestDemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "http://twitter.com/lizhihui"
 
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+
+   s.platform     = :ios, "6.1"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -39,11 +39,12 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "http://EXAMPLE/TestDemo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Sobot-ios/TestDemo.git", :tag => s.version }
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+
+   s.source_files  = "lidemo/*."
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -64,7 +65,7 @@ Pod::Spec.new do |s|
 
 
 
-  # s.requires_arc = true
+    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
