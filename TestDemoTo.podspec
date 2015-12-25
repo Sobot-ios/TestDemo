@@ -43,31 +43,51 @@ Pod::Spec.new do |s|
 
 
 
-   s.source_files  = 'TestDemoTo/TestDemoToFramework/**/*','TestDemoTo/TestDemoToBundle/**/*'
-  #s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
 
 
 
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
 
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-
-  #s.framework  = "TestDemoTo"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
-
-
-    s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
 
 end
+
+#
+# Be sure to run `pod lib lint SobotLib.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
+#
+
+Pod::Spec.new do |s|
+s.name             = "SobotLib"
+s.version          = "0.1.0"
+s.summary          = "A Test of SobotLib to pods."
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.description      = <<-DESC  A Test of SobotLib to pods This description is used to generate tags and improve search results
+DESC
+
+s.homepage         = "https://github.com/<GITHUB_USERNAME>/SobotLib"
+# s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+s.license          = 'MIT'
+s.author           = { "lizhihui" => "lizh@sobot.com" }
+s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SobotLib.git", :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+s.platform     = :ios, '7.0'
+s.requires_arc = true
+
+s.source_files = 'Pod/Classes/**/*'
+s.resource_bundles = {
+'SobotLib' => ['Pod/Assets/*.png']
+}
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+# s.dependency 'AFNetworking', '~> 2.3'
+end
+
