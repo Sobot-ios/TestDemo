@@ -1,0 +1,10 @@
+PODS:
+  - TestDemoTo (1.0.3)
+
+DEPENDENCIES:
+  - TestDemoTo (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  TestDemoTo: 83e81624767ec021971ed17244d4230463bcf38a
+
+COCOAPODS: 0.38.2
